@@ -3,33 +3,33 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,700i,800,800i" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <title>Karson Cornell</title>
   </head>
   <body>
-    <div class="main-header">
+    <div class="main-header" id="home">
       <span class="name">Karson Cornell</span>
       <nav class="main-nav">
         <ul>
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">PORTFOLIO</a></li>
-          <li><a href="#">CONTACT</a></li>
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#portfolio">PORTFOLIO</a></li>
+          <li><a href="#contact">CONTACT</a></li>
         </ul>
       </nav>
       <img src="images/responsive-layout-profile.png" alt="Profile Image">
-      <p>Hi! I'm a front-end developer who loves responsive design and css. I recently
+      <p class="intro">Hi! I'm a front-end developer who loves responsive design and css. I recently
         finished a degree in front-end development at Treehouse and am excited to put all
         my skills to use!
       </p>
     </div>
 
-    <div class="portfolio">
+    <div class="portfolio" id="portfolio">
 
-      <p>PORTFOLIO</p>
+      <h2 class="section">PORTFOLIO</h2>
 
       <div class="P1 col">
-      <img src="images/portfolio-1.png" alt="P1">
+      <img src="images/portfolio-1.png" alt="P1" class="responsive">
       <h2>Marketing Page</h2>
       <p>This project shows the front page of a marketing website meant for
         a specific business I'm interested in.
@@ -37,7 +37,7 @@
       </div>
 
       <div class="P2 col">
-        <img src="images/portfolio-2.png" alt="P2">
+        <img src="images/portfolio-2.png" alt="P2" class="responsive">
         <h2>Search Page</h2>
         <p>This project searches through a specific database to find information that
           the user is trying to look up.
@@ -45,7 +45,7 @@
       </div>
 
       <div class="P3 col">
-        <img src="images/portfolio-3.png" alt="P3">
+        <img src="images/portfolio-3.png" alt="P3" class="responsive">
         <h2>Travel App</h2>
         <p>This project compares travel times based on different transportation
           methods and tells you the best one.
@@ -53,7 +53,7 @@
       </div>
 
       <div class="P4 col">
-        <img src="images/portfolio-4.png" alt="P4">
+        <img src="images/portfolio-4.png" alt="P4" class="responsive">
         <h2>Map of Favorite Spots</h2>
         <p>This project uses mapping APIs to plot points for my favorite spots in the city
           for a do-it-yourself walking tour.
@@ -61,7 +61,7 @@
       </div>
 
       <div class="P5 col">
-        <img src="images/portfolio-5.png" alt="P5">
+        <img src="images/portfolio-5.png" alt="P5" class="responsive">
         <h2>Photo Gallery</h2>
         <p>This project shows pictures from a recent trip to the viewer and
           allows them to easily navigate through photos.
@@ -69,7 +69,7 @@
       </div>
 
       <div class="P6 col">
-        <img src="images/portfolio-6.png" alt="P6">
+        <img src="images/portfolio-6.png" alt="P6" class="responsive">
         <h2>Calculator</h2>
         <p>Someone can enter in the numbers they want and press the big blue button
           and get the result.
@@ -79,8 +79,8 @@
     </div>
 
     <footer>
-      <div class="contact">
-      <h2>CONTACT</h2>
+      <div class="contact" id="contact">
+      <h2 class="section">CONTACT</h2>
       <p>If you're interested in chatting or want more information about what I've been working
         on, I'd love to hear from you!</p>
         <p><b>Phone</b> +1 (111)555-1234</p>
@@ -89,7 +89,7 @@
 
     <div class="bottom-bar">
       <span class="bottom-name">Karson Cornell</span>
-      <span class="back-to-top">BACK TO TOP</span>
+      <span class="back-to-top"><a href="#home">BACK TO TOP</a></span>
     </div>
 
     </footer>
