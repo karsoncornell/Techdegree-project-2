@@ -7,26 +7,30 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>Karson Cornell</title>
   </head>
+
   <body>
-    <div class="main-header" id="home">
-      <span class="name">Karson Cornell</span>
-      <nav class="main-nav">
-        <ul>
-          <li><a href="#home">HOME</a></li>
-          <li><a href="#portfolio">PORTFOLIO</a></li>
-          <li><a href="#contact">CONTACT</a></li>
-        </ul>
-      </nav>
-      <img src="images/responsive-layout-profile.png" alt="Profile Image">
-      <p class="intro">Hi! I'm a front-end developer who loves responsive design and css. I recently
+    <div class="main-header group" id="home">
+      <div class="top-bar group">
+        <div class="name">Karson Cornell</div>
+        <nav class="main-nav">
+          <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+    </div>
+        <img src="images/responsive-layout-profile.png" alt="Profile Image" class="profile group">
+
+      <p class="intro group">Hi! I'm a front-end developer who loves responsive design and css. I recently
         finished a degree in front-end development at Treehouse and am excited to put all
         my skills to use!
       </p>
     </div>
 
-    <div class="portfolio" id="portfolio">
+    <div class="portfolio group" id="portfolio">
 
-      <h2 class="section">PORTFOLIO</h2>
+      <h2 class="section title">PORTFOLIO</h2>
 
       <div class="P1 col">
       <img src="images/portfolio-1.png" alt="P1" class="responsive">
@@ -90,8 +94,14 @@
     <div class="bottom-bar">
       <span class="bottom-name">Karson Cornell</span>
       <span class="back-to-top"><a href="#home">BACK TO TOP</a></span>
+      <div>
+        <nav class="bottom-nav">
+          <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
-
-    </footer>
-  </body>
 </html>
