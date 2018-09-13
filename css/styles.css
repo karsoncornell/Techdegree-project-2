@@ -126,7 +126,9 @@ body {
   .main-nav {
     text-align: center;
     height: 50px;
-    clear: both;
+  }
+
+  .top-bar {
     margin-bottom: 50px;
   }
 
@@ -152,6 +154,7 @@ body {
     font-size: 1.25em;
     padding-left: 20px;
     margin-bottom: 75px;
+
   }
 
   .col {
@@ -225,24 +228,46 @@ body {
   padding-bottom: 20px;
   }
 
+}
+
+
 @media (min-width: 1024px) {
 
   .name {
     float: left;
+    margin-left: 20px;
   }
 
   .main-nav {
-    float: right;
+    text-align: right;
+    position: absolute;
+    top: 20px;
+    right: 5%;
   }
 
+
+  .main-nav {
+    /* float: right; */
+  }
+  /* .main-nav {
+    float: right;
+    display: table;
+  content: "";
+  clear: both;
+  } */
+
   .top-bar {
-    display: 
+    margin-top: 50px;
   }
 
   .main-nav  li {
     float: left;
   }
 
+  .main-header {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
   .col {
     float: left;
     width: 33.3%;
@@ -252,6 +277,8 @@ body {
     margin: 5%;
     text-align: center;
   }
+
+  
 
   .contact p {
     width: 40%;
